@@ -5,11 +5,7 @@ on:
       - master
     paths:
       - "backend/package.json"
-  pull_request:
-    branches:
-      - master
-    paths:
-      - "backend/package.json"
+
 jobs:
   build:
     runs-on: ubuntu-latest
